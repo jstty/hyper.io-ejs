@@ -1,17 +1,5 @@
-hyper.io-handlebars
-==========================
-
-EJS Template Middleware for Hyper.io
-
-## NPM
-```sh
-$ npm install hyper.io-ejs
-```
-
-## Use
-```javascript
 var hyper = require('hyper.io');
-var ejs   = require('hyper.io-ejs');
+var ejs   = require('../index.js');
 
 // add EJS, this is optional,
 // hyper.io will auto try to require the 'ejs'
@@ -36,5 +24,3 @@ hyper().start({
         }
     ]
 });
-
-```
