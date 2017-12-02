@@ -1,6 +1,6 @@
 {
     "name": "hyper.io-ejs",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "EJS Template Middleware for Hyper.io",
     "keywords": [
         "node.js",
@@ -19,6 +19,6 @@
     },
     "dependencies": {
         "lodash": "~2.4.1",
-        "ejs":    "~1.0.0"
+        "ejs":    "~2.5.7"
     }
 }
